@@ -9,6 +9,16 @@ nav{
 nav h2{
     font-weight: 400;
 }
+.backarrow
+{
+    height: 40px;
+    margin-left: 30px;
+}
+.bagicon
+{
+    height: 40px;
+    margin-right: 30px;
+}
 
 /* Product Details Header */
 .productsheader
@@ -46,3 +56,27 @@ nav h2{
 }
 
 
+@media (max-width: 500px){
+    .container{
+        max-width: 100%;
+    }
+    .image-container{
+        height: 400px;
+    }
+    .beyondthebox, .productsheader
+    {
+        font-size: 1.3em;
+    }
+    .backarrow
+    {
+        width: 35px;
+        height: 35px;
+        margin-left: 15px;
+    }
+    .bagicon
+    {
+        width: 35px;
+        height: 35px;
+        margin-right: 15px;
+    }
+}
