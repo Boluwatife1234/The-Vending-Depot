@@ -1,0 +1,48 @@
+.markImg
+{
+    animation: fadeIn 8s;   
+}
+
+#orderSuccessful
+{
+    animation: fadeIn 3s;   
+    animation-delay: 1s;
+}
+
+#estimatedDelivery
+{
+    animation: fadeIn 3s;   
+    animation-delay: 1s;
+}
+
+
+@keyframes fadeIn {
+    from
+    {
+        opacity: 0;
+    }
+    
+    to
+    {
+        opacity: 1;
+    }
+}
+
+/* support for opera */
+@-o-keyframes fadeIn
+{
+    0%{ opacity: 1;}
+    100%{ opacity: 0;}
+}
+/* support for mozila */
+@-moz-keyframes fadeIn
+{
+    0%{ opacity: 1;}
+    100%{ opacity: 0;}
+}
+/* support for safari and chrome */
+@-webkit-keyframes fadeIn
+{
+    0%{ opacity: 1;}
+    100%{ opacity: 0;}
+}
